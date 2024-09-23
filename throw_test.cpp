@@ -1,9 +1,9 @@
 void DoWork() {
-		try {
-			throw 42;
-		} catch (...) {
-				throw;
-		}
+	try {
+		throw 42;
+	} catch (...) {
+		throw;
+	}
 }
 
 int TryDoWork() {
